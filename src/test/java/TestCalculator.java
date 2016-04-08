@@ -46,6 +46,40 @@ public class TestCalculator {
 		
 	}
 	
+	@Test
+	public void multiplication() {
+		Assert.assertEquals("Failed multiplication!", 55.35, cal.multiplication(12.3,4.5),0.01d);	
+		
+	}
 	
+	@Test
+	public void multiplication2() {
+		Assert.assertEquals("Failed multiplication!", 9.66, cal.multiplication(2.3,4.2),0.01d);	
+		
+	}
+	
+	@Test
+	public void multiplication3() {
+		Assert.assertEquals("Failed multiplication!", 8.55, cal.multiplication(1.9,4.5),0.01d);	
+		
+	}
+	
+	@Test
+	public void division() {
+		Assert.assertEquals("Failed multiplication!", 2.73, cal.division(12.3,4.5),0.01d);	
+		
+	}
+	
+	@Test
+	public void division2() {
+		Assert.assertEquals("Failed multiplication!", 27.62, cal.division(124.3,4.5),0.01d);	
+		
+	}
+	
+	@Test
+	public void division3() {
+		Assert.assertEquals("Failed multiplication!", 15.30, cal.division(35.2,2.3),0.01d);	
+		
+	}
 
 }
